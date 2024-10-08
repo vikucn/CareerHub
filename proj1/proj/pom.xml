@@ -1,0 +1,31 @@
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>hexa</groupId>
+  <artifactId>proj</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>proj</name>
+  
+  <properties>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
+    <junit.jupiter.version>5.4.0</junit.jupiter.version>
+    <junit.platform.version>1.0.0</junit.platform.version>
+  </properties>
+  
+  
+  <dependencies>
+      <dependency>
+         <groupId>org.junit.jupiter</groupId>
+         <artifactId>junit-jupiter-engine</artifactId>
+         <version>${junit.jupiter.version}</version>
+         <scope>test</scope>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+<dependency>
+    	<groupId>org.junit.jupiter</groupId>
+    	<artifactId>junit-jupiter-api</artifactId>
+    	<version>${junit.jupiter.version}</version>
+    	<scope>test</scope>
+	</dependency>
+   </dependencies>
+</project>
